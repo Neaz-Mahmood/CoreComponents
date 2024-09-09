@@ -1,7 +1,7 @@
 import { Button, Modal, Pressable, Text, View } from 'react-native'
 import { useState } from 'react'
 
-export default function App() {
+export default function ModalExample() {
   const [isModalVisible, setIsModalVisible] = useState(false)
   return (
     <View
